@@ -1,4 +1,4 @@
-,productions,tickets,revenues,days_last,days_max,days_mean,weekdays,weekends,email_engagement,email_unsubscribe,membership,years_member,membership_dropped,membership_downgraded,mosaic,fss,london,uk,proximity,churned
+customer_no,productions,tickets,revenues,days_last,days_max,days_mean,weekdays,weekends,email_engagement,email_unsubscribe,membership,years_member,membership_dropped,membership_downgraded,mosaic,fss,london,uk,proximity,churned
 0,38,41,5701.15,70,245,35,0.29,0.71,0.4,N,I,5,N,N,X,X,N,N,C,0
 1,18,36,263.5,41,1013,90,0.78,0.22,0.61,N,A,2,X,X,O,B,N,Y,B,1
 2,22,24,417,70,364,74,0.68,0.32,0.56,N,I,5,N,N,A,F,Y,Y,A,0
