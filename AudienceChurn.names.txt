@@ -1,37 +1,45 @@
 I. Information
-	A sample of audience features attending an entertainment venue in London, UK
-	Features are aggregated over 4 years period 
-	In the 5th year, audience was labeled to either have churned (1) or not (0)
+  A sample of audience features attending an entertainment venue in London, UK
+  Features are aggregated over 4 years period
+  In the 5th year, audience was labeled to either have churned (1) or not (0)
 
 II. Number of Instances
-	1000 (500  each of two classes)
+  1000 (500  each of two classes)
 
-III. Number of Attributes 
-	10 numerical
-	9 categorical
-	target class
+III. Number of Attributes
+  10 numerical | 9 categorical | target class
 
 IV. Attribute Information
-	1.	productions: sum of all productions attended
-	2.	tickets: sum of all tickets bought
-	3.	revenues: sum of all revenues
-	4.	days_last: number of days since last order
-	5.	days_max: max number of days between any two consecutive orders
-	6.	days_mean: mean number of days between any two consecutive orders
-	7.	weekdays: percentage of productions attended during weekdays only
-	8.	weekends: percentage of productions attended during weekends only
-	9.	email_engagement: percentage of emails engaged from sent
-	10.	email_unsubscribe: 2 categories. 'Y': unsubscribed from mailing list, 'N': didn't unsubscribe
-	11. membership: membership category. 13 categories 'A'-'M'
-	12.	years_member: number of years since member
-	13. membership_dropped: 3 categories. 'Y': membership was dropped during 4th year, 'N': membership wasn't dropped, 'X': not a member
-	14. membership_downgraded: 3 categories. 'Y': membership was downgraded during 4th year, 'N': membership wasn't downgraded, 'X': not a member
-	15.	mosaic: socioeconomic category. 16 categories: 'A'-'O' and 'X' if not available
-	16.	fss: financial strategy segment. 16 categories: 'A'-'O' and 'X' if not available 
-	17.	london: 2 categories, 'Y': London, 'N': not London
-	18.	uk: 2 categories, 'Y': UK but not London, 'N': not UK
-	19.	proximity: 4 categories, 'A': London, 'B': UK but not London, 'C': Europe, 'D': otherwise
-	20.	churned: target class. Either have churned (1) or not (0)
+  1. productions: sum of all productions attended
+  2. tickets: sum of all tickets bought
+  3. revenues: sum of all revenues
+  4. days_last: number of days since last order
+  5. days_max: max number of days between any two consecutive orders
+  6. days_mean: mean number of days between any two consecutive orders
+  7. weekdays: percentage of productions attended during weekdays only
+  8. weekends: percentage of productions attended during weekends only
+  9. email_engagement: percentage of emails engaged with
+  10. email_unsubscribe. 2 categories:
+	'Y': unsubscribed from mailing list | 'N': didn't unsubscribe
+  11. membership. 13 categories: 'A'-'M'
+  12. years_member: number of years since member
+  13. membership_dropped. 3 categories:
+	'Y': membership was dropped during 4th year
+	'N': membership wasn't dropped, 'X': not a member
+  14. membership_downgraded. 3 categories:
+	'Y': membership was downgraded during 4th year
+	'N': membership wasn't downgraded,
+	'X': not a member
+  15. mosaic. socioeconomic category. 16 categories: 'A'-'O' and 'X' if not available
+  16. fss. financial strategy segment. 16 categories: 'A'-'O' and 'X' if not available
+  17. london. 2 categories:
+	'Y': lives in London | 'N': doesn't live in London
+  18. uk. 2 categories:
+	'Y': lives in UK but not London | 'N': doesn't live in UK
+  19. proximity. 4 categories:
+	'A': lives in London | 'B': lives in UK but not London | 'C': lives in Europe | 'D': lives outside of Europe
+  20. churned. Target class:
+	1: churned | 0: didn't churn
 
 V. Missing Attribute Values
 	None
