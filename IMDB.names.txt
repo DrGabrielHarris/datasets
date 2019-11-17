@@ -1,0 +1,15 @@
+I. Information
+  A sample of positive and negative reviews from the IMDB dataset
+
+II. Number of Instances
+  9440 (4720 each of two classes)
+
+III. Number of Attributes
+  1 string | target class
+
+IV. Attribute Information
+  1. text: raw review string
+  2. label. Target class: positive | negative
+
+V. Missing Attribute Values
+	None
